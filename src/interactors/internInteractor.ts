@@ -26,7 +26,7 @@ export const createInternInteractor = async (intern: Intern) => {
       email: intern.email,
       code: intern.code,
       phone: intern.phone,
-      role_id: Object.values(role)[0].id,
+      role_id: intern.id,
     };
     const userRes = await UserService.createUser(user);
     const internInfo = {

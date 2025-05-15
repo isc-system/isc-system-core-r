@@ -6,7 +6,7 @@ import db from './pg-connection';
 
 const rolesTable = 'roles';
 const rolePermissionsTableMainMenu = 'role_permissions';
-const actionsTable = 'role_permissions_action';
+const actionsTable = 'role_permissions';
 const permissionsTable = 'permissions';
 
 
